@@ -1,0 +1,47 @@
+
+# ==============================
+# Ambientes virtuais Python
+# ==============================
+.venv/
+venv/
+env/
+
+# ==============================
+# Cache e arquivos temporários
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Datasets e dados gerados
+# ==============================
+plantvillage_raw/
+projeto_few_shot/
+*.zip
+
+# ==============================
+# Resultados gerados
+# ==============================
+results/*
+!results/.gitkeep
+
+# ==============================
+# Configurações locais
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# Arquivos do sistema
+# ==============================
+.DS_Store
+Thumbs.db
+

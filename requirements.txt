@@ -1,0 +1,19 @@
+
+# Deep Learning (CPU)
+torch==2.4.1
+torchvision==0.19.1
+
+# Manipulação e processamento de imagens
+numpy==1.24.4
+Pillow==10.4.0
+
+# Visualização
+matplotlib==3.7.5
+seaborn==0.13.2
+
+# Avaliação do modelo
+scikit-learn==1.3.2
+
+# Ambiente Jupyter
+notebook==7.3.3
+ipykernel==6.29.5
