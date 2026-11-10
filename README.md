@@ -43,12 +43,6 @@ O cenário experimental é configurado da seguinte forma:
 | Imagens de consulta por classe | 100 |
 | Total de imagens de consulta | 500 |
 
-### Matriz de confusão
-
-A matriz de confusão apresenta a distribuição das classificações corretas e incorretas para cada uma das cinco classes avaliadas.
-
-![Matriz de Confusão](results/matriz_confusao.png)
-
 ### Extração de características
 
 A ResNet18 pré-treinada é utilizada como extratora de características. Sua camada classificadora original é removida e seus parâmetros permanecem congelados durante o experimento.
@@ -75,6 +69,12 @@ Na execução experimental realizada, foram obtidos os seguintes resultados:
 | Imagens classificadas corretamente | 417 |
 | Imagens classificadas incorretamente | 83 |
 | Total de imagens avaliadas | 500 |
+
+### Matriz de confusão
+
+A matriz de confusão apresenta a distribuição das classificações corretas e incorretas para cada uma das cinco classes avaliadas.
+
+![Matriz de Confusão](results/matriz_confusao.png)
 
 A avaliação também contempla métricas de precisão (*precision*), revocação (*recall*) e F1-score, além da matriz de confusão.
 
