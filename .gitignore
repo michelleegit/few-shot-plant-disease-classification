@@ -31,7 +31,8 @@ projeto_few_shot/
 # Resultados gerados
 # ==============================
 results/*
-!results/.gitkeep
+!results/
+!results/*.png
 
 # ==============================
 # Configurações locais
